@@ -1,0 +1,26 @@
+{
+  "name": "umer.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "build:html": "nodemon --watch src/html -e .html --exec \"html-minifier --input-dir src/html --output-dir build --collapse-whitespace\"",
+
+    "build:scss": "node-sass -w -r ./src/sass/ -o ./build/css/ --output-style=compressed",
+
+    "live-server": "live-server --watch=build --open=build",
+
+    "build": "concurrently --kill-others \"npm run build:scss\" \"npm run live-server\" \"npm run build:html\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "html-minifier": "^3.5.2",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.5.3"
+  }
+}

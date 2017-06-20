@@ -1,0 +1,34 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto";
+
+@import "_bootstrapCustom.scss";
+
+
+
+$font-name:    'Playfair Display SC', serif;
+$font-body:    'Roboto', sans-serif;
+$background-color: #fafafa;
+$primary-color: #333;
+$secondary-color: $background-color;
+
+body {
+  font-family: $font-body;
+  background-color: $background-color;
+}
+
+.name {
+    font-family: $font-name;
+}
+
+.ts_points {
+  padding-left: 15px;
+}
+
+.media-left {
+  padding-right: 30px;
+}
+
+.ts_logo{
+  width: 150px;
+}
