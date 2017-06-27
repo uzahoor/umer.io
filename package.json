@@ -5,13 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-
-    "build:html": "nodemon --watch src/html -e .html --exec \"html-minifier --input-dir src/html --output-dir build --collapse-whitespace\"",
-
-    "build:scss": "node-sass -w -r ./src/sass/ -o ./build/css/ --output-style=compressed",
-
     "live-server": "live-server --watch=build --open=build",
+    "build:html": "nodemon --watch src/pug -e pug,json --exec \"node tasks/pug.js\"",
 
+    "build:scss": "nodemon --watch src/sass -e .scss --exec \"node tasks/sass.js\"",
     "build": "concurrently --kill-others \"npm run build:scss\" \"npm run live-server\" \"npm run build:html\""
   },
   "keywords": [],
@@ -21,6 +18,8 @@
     "concurrently": "^3.4.0",
     "html-minifier": "^3.5.2",
     "live-server": "^1.2.0",
-    "node-sass": "^4.5.3"
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.11.0",
+    "pug": "^2.0.0-rc.2"
   }
 }

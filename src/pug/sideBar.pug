@@ -1,0 +1,18 @@
+.sidebar
+  .container
+    h1.clearfix.pull-right.name #{ data.personal.name }
+  .container
+    .list-group
+      each detail in data.personal.details
+        .list-group-item.clearfix
+          span.pull-right
+            | #{ detail.label }
+            i.fa.fa-fw.fa-lg(aria-hidden='true' class=detail.icon)
+  br
+  .container
+    .list-group
+      each section in data.sections
+        .list-group-item.clearfix
+          span.pull-right
+            | #{ section.title.name }
+            i.fa.fa-fw.fa-lg(aria-hidden='true' class=section.title.icon)

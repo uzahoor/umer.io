@@ -1,0 +1,187 @@
+{
+    "personal": {
+        "name": "Umer Zahoor",
+        "details": [
+            {
+                "label": "Web Developer",
+                "icon": "fa-briefcase"
+            },
+            {
+                "label": "Vaughan, Ontario, Canada",
+                "icon": "fa-map-marker"
+            },
+            {
+                "label": "uzahoor127@gmail.com",
+                "icon": "fa-envelope"
+            }
+        ]
+    },
+    "sections": [
+        {
+            "title": {
+                "name": "Technical Skills",
+                "icon": "fa-terminal"
+            },
+            "skills": [
+                {
+                    "title": "AngularJS",
+                    "exp": "2 Years Experience",
+                    "img": "https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg",
+                    "rating": 3.5,
+                    "points": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+                    ]
+                },
+                {
+                    "title": "JavaScript",
+                    "exp": "2 Years Experience",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
+                    "rating": 3.5,
+                    "points": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+                    ]
+                },
+                {
+                    "title": "jQuery",
+                    "exp": "2 Years Experience",
+                    "img": "http://precision-software.com/wp-content/uploads/2014/04/jQurery.gif",
+                    "rating": 3.5,
+                    "points": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+                    ]
+                },
+                {
+                    "title": "HTML5 ",
+                    "exp": "2 Years Experience",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg",
+                    "rating": 3.5,
+                    "points": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+                    ]
+                },
+                {
+                    "title": "SASS",
+                    "exp": "2 Years Experience",
+                    "img": "http://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png",
+                    "rating": 3.5,
+                    "points": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+                    ]
+                },
+                {
+                    "title": "Bootstrap ",
+                    "exp": "2 Years Experience",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Boostrap_logo.svg",
+                    "rating": 3.5,
+                    "points": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+                    ]
+                },
+                {
+                    "title": "CSS3 ",
+                    "exp": "2 Years Experience",
+                    "img": "https://rangle.io/images/services/css3-01.svg",
+                    "rating": 3.5,
+                    "points": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+                    ]
+                },
+                {
+                    "title": "Slim Framework ",
+                    "exp": "2 Years Experience",
+                    "img": "http://stacksummation.com/assets/img/tech/slim.jpg",
+                    "rating": 3.5,
+                    "points": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+                    ]
+                },
+                {
+                    "title": "PHP",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
+                    "exp": "2 Years Experience",
+                    "rating": 3.5,
+                    "points": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+                    ]
+                },
+                {
+                    "title": "Java",
+                    "exp": "2 Years Experience",
+                    "img": "https://vignette4.wikia.nocookie.net/spore/images/2/2e/Java_Logo.svg/revision/latest?cb=20101031041704",
+                    "rating": 3.5,
+                    "points": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": {
+                "name": "Experience",
+                "icon": "fa-industry"
+            },
+            "exp": [
+                {
+                    "company": "Mircom Group of Companies",
+                    "time": "Sept 2015 - Current",
+                    "position": "Web Developer",
+                    "projects": [
+                        {
+                            "name": "Web based configuration tool",
+                            "summary": "Building a web page variant of an existing application which is used to configure various access control devices. Make modifications to settings such as schedules, resident directory, credentials, etc.",
+                            "points": [
+                                "Build a responsive user interface using AngularJS, Bootstrap, JQuery, JavaScript, CSS, and HTML.",
+                                "Build a REST API using MySQL, Apache, PHP, and Slim Framework (PHP framework)."
+                            ]
+                        },
+                        {
+                            "name": "MiEntry (Access control app)",
+                            "summary": "Provide residents with a mobile app that allows video calls from access panels and to use a mobile device in place of an access card.",
+                            "points": [
+                                "Created specifications for team in India to develop for both Android and iOS.",
+                                "Created test plan to ensure that the specification was met.",
+                                "Reviewed code to ensure maintainability and prevent potential bugs."
+                            ]
+                        },
+                        {
+                            "name": "Metis Secure (Emergency notification)",
+                            "summary": "Maintaining command center web page, which controls various alarm devices. Being able to send alerts, respond to request for helps with live audio calls, and notify through e-mail and SMS.",
+                            "points": [
+                                "Using Java, Maven, JavaScript, NetBeans, and Spring Framework"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": {
+                "name": "Education",
+                "icon": "fa-graduation-cap"
+            },
+            "edu": [{
+
+            }]
+        }
+    ]
+}
