@@ -1,26 +1,28 @@
 - var techSkills = data.sections[0];
-.container
-        h1.clearfix
-          i.fa(aria-hidden='true' class=techSkills.title.icon)
-          |  #{ techSkills.title.name }
-        each skill in techSkills.skills
-            .media
-              .media-left.media-middle.ts_logo
-                img.media-object.ts_logo(src=skill.img, alt='...')
-              .media-body.media-middle
-                h3.media-heading
-                  | #{ skill.title } 
-                  small
-                    - var fullStars = Math.floor(skill.rating);
-                    - for (var x = 0; x < fullStars; x++)
-                      i.fa.fa-star(aria-hidden='true')
-                    if Math.floor(skill.rating) != skill.rating
-                      i.fa.fa-star-half-o(aria-hidden='true')
-                    - var emptyStars = 5 - Math.ceil(skill.rating);
-                    - for (var x = 0; x < emptyStars; x++)
-                      i.fa.fa-star-o(aria-hidden='true')
-                      p #{ skill.exp } 
-                ul.ts_points
-                  each point in skill.points
-                    li
-                      | #{ point } 
+h2.sectionTitle.clearfix(id=techSkills.title.shortName)
+  i.fa(aria-hidden='true' class=techSkills.title.icon)
+  |  #{ techSkills.title.name }
+hr
+.row
+    each skill in techSkills.skills
+      .col-lg-6
+        .media.tsMedia
+          .media-left.media-middle.ts_logo
+            img.media-object.tsLogo(src=skill.img, alt='...')
+          .media-body.media-middle
+            h3.media-heading
+              | #{ skill.title } 
+              small
+                | #{ skill.exp } 
+                //- - var fullStars = Math.floor(skill.rating);
+                //- - for (var x = 0; x < fullStars; x++)
+                //-   i.fa.fa-star(aria-hidden='true')
+                //- if Math.floor(skill.rating) != skill.rating
+                //-   i.fa.fa-star-half-o(aria-hidden='true')
+                //- - var emptyStars = 5 - Math.ceil(skill.rating);
+                //- - for (var x = 0; x < emptyStars; x++)
+                //-   i.fa.fa-star-o(aria-hidden='true')
+            ul.tsPoints
+              each point in skill.points
+                li
+                  | #{ point } 

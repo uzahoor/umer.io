@@ -1,5 +1,14 @@
-- var edu = data.sections[2];
-.container
-        h1.clearfix
-          i.fa(aria-hidden='true' class=edu.title.icon)
-          |  #{ edu.title.name }
+- var education = data.sections[2];
+h2.sectionTitle.clearfix(id=education.title.shortName)
+  i.fa(aria-hidden='true' class=education.title.icon)
+  |  #{ education.title.name }
+hr
+each ed in education.edu
+  .media
+    .media-body.media-middle
+      p #{ ed.degree }
+      |  #{ ed.name } /
+      |  #{ ed.time } /
+      |  #{ ed.location }
+    .media-right
+      img.eduLogo(src=ed.img)

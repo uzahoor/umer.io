@@ -24,11 +24,42 @@ html(lang='en')
     AAAAAAAAAAAAAA==', rel='icon', type='image/x-icon')
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
     link(rel='stylesheet', href='css/styles.css')
-  body.animated.fadeIn
-    include sideBar.pug
-    include techSkills.pug
-    include exp.pug
-    include edu.pug
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+  body.animated.fadeIn(data-spy="scroll" data-target="#side-nav" data-offset="50")
+
+    .sidebar
+      include sideBar.pug
+    .content
+      include techSkills.pug
+      include exp.pug
+      include edu.pug
+
+    //- .article-wrap
+    //-   .article-content
+    //-     include techSkills.pug
+    //-     include exp.pug
+    //-     include edu.pug
+    //- .sidebar
+    //-   include sideBar.pug
+      
+
+    //- .container-fluid
+    //-   .row
+    //-     .col-sm-5
+    //-       nav.navbar.navbar-default.navbar-fixed-side
+    //-         include sideBar.pug
+    //-     .col-sm--7
+    //-       include techSkills.pug
+    //-       include exp.pug
+    //-       include edu.pug
+
+    //- .sidebar
+    //-   include sideBar.pug
+    //- .content
+    //-   include techSkills.pug
+    //-   include exp.pug
+    //-   include edu.pug
     br
     br
     br

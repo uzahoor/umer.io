@@ -1,18 +1,20 @@
-.sidebar
-  .container
-    h1.clearfix.pull-right.name #{ data.personal.name }
-  .container
-    .list-group
-      each detail in data.personal.details
-        .list-group-item.clearfix
-          span.pull-right
-            | #{ detail.label }
-            i.fa.fa-fw.fa-lg(aria-hidden='true' class=detail.icon)
-  br
-  .container
-    .list-group
-      each section in data.sections
-        .list-group-item.clearfix
-          span.pull-right
-            | #{ section.title.name }
-            i.fa.fa-fw.fa-lg(aria-hidden='true' class=section.title.icon)
+h1.clearfix.pull-right.name #{ data.personal.name }
+br
+br
+br
+br
+ul.list-unstyled
+  each detail in data.personal.details
+    li.clearfix
+      .pull-right
+        | #{ detail.label } &nbsp; &nbsp;
+        i.fa.fa-fw.fa-lg(aria-hidden='true' class=detail.icon)
+br
+div(id="side-nav")
+  ul.nav.nav-list.list-unstyled
+    each section in data.sections
+      li.clearfix
+        a.pull-right(href="#"+section.title.shortName)
+          | #{ section.title.name } &nbsp; &nbsp;
+          i.fa.fa-fw.fa-lg(aria-hidden='true' class=section.title.icon)
+            

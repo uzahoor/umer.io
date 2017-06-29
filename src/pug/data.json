@@ -20,7 +20,8 @@
         {
             "title": {
                 "name": "Technical Skills",
-                "icon": "fa-terminal"
+                "icon": "fa-terminal",
+                "shortName": "ts"
             },
             "skills": [
                 {
@@ -138,7 +139,8 @@
         {
             "title": {
                 "name": "Experience",
-                "icon": "fa-industry"
+                "icon": "fa-industry",
+                "shortName": "exp"
             },
             "exp": [
                 {
@@ -177,11 +179,18 @@
         {
             "title": {
                 "name": "Education",
-                "icon": "fa-graduation-cap"
+                "icon": "fa-graduation-cap",
+                "shortName": "edu"
             },
-            "edu": [{
-
-            }]
+            "edu": [
+                {
+                    "name": "York University",
+                    "time": "Oct 2015",
+                    "location": "Toronto, ON",
+                    "img": "http://www.cse.yorku.ca/~johnlam/Lassonde_300.gif",
+                    "degree": "Bachelor of Science in Computer Science"
+                }
+            ]
         }
     ]
 }

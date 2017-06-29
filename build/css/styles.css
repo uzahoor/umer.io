@@ -3312,18 +3312,55 @@ input[type="button"].btn-block {
   .hidden-print {
     display: none !important; } }
 
+.name {
+  font-family: "Playfair Display SC", serif;
+  color: white; }
+
+body .nav-list > .active > a {
+  background-color: #fafafa;
+  padding: 7px; }
+
+body .nav-list > .active > a:hover {
+  background-color: #333; }
+
+body .nav a:hover {
+  color: #333;
+  background-color: #333; }
+
+.sidebar {
+  position: fixed;
+  width: 35%;
+  padding-top: 50px;
+  height: 100%;
+  background: #191919;
+  padding-right: 50px;
+  font-size: 15px; }
+  .sidebar #side-nav {
+    margin-right: -50px; }
+    .sidebar #side-nav i {
+      margin-right: 50px; }
+
+.content {
+  margin-left: 35%;
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+  z-index: 1;
+  padding: 50px; }
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fafafa; }
 
-.name {
-  font-family: "Playfair Display SC", serif; }
+.tsLogo {
+  width: 100px; }
 
-.ts_points {
-  padding-left: 15px; }
+.sectionTitle {
+  font-family: "Playfair Display SC", serif;
+  font-weight: bold; }
 
-.media-left {
-  padding-right: 30px; }
+.tsPoints {
+  margin-left: -20px; }
 
-.ts_logo {
+.eduLogo {
   width: 150px; }

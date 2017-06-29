@@ -1,34 +1,39 @@
+@import "bourbon/bourbon";
 @import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css";
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 @import "https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto";
-
 @import "_bootstrapCustom.scss";
-
-
-
-$font-name:    'Playfair Display SC', serif;
-$font-body:    'Roboto', sans-serif;
+$font-name: 'Playfair Display SC',
+serif;
+$font-body: 'Roboto',
+sans-serif;
 $background-color: #fafafa;
 $primary-color: #333;
-$secondary-color: $background-color;
-
+$secondary-color: darken( $background-color, 40%);
+@import "sideBar.scss";
 body {
-  font-family: $font-body;
-  background-color: $background-color;
+    font-family: $font-body;
+    background-color: $background-color;
 }
 
-.name {
-    font-family: $font-name;
+.tsLogo {
+    width: 100px;
 }
 
-.ts_points {
-  padding-left: 15px;
+.sectionTitle {
+  font-family: $font-name;
+  font-weight: bold;
 }
 
-.media-left {
-  padding-right: 30px;
+// .tsMedia {
+//   max-width: 50%; 
+//   min-width: 310px; 
+// }
+
+.tsPoints {
+  margin-left: -20px;
 }
 
-.ts_logo{
+.eduLogo {
   width: 150px;
 }

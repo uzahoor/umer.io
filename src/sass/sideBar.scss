@@ -1,0 +1,46 @@
+$sidebar-width: 35%;
+$padding: 50px;
+
+.name {
+    font-family: $font-name;
+    color: white;
+}
+
+body .nav-list>.active>a {
+    background-color: $background-color;
+    padding: 7px;
+}
+
+body .nav-list>.active>a:hover {
+    background-color: $primary-color;
+}
+
+body .nav a:hover {
+    color: $primary-color;
+    background-color: $primary-color;
+}
+
+.sidebar {
+    position: fixed;
+    width: $sidebar-width;
+    padding-top: $padding;
+    height: 100%;
+    background: #191919;
+    padding-right: $padding;
+    font-size: 15px;
+    #side-nav {
+        margin-right: -$padding;
+        i {
+            margin-right: $padding;
+        }
+    }
+}
+
+.content {
+    margin-left: $sidebar-width;
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+    z-index: 1;
+    padding: $padding;
+}
