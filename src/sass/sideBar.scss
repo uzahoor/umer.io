@@ -26,6 +26,8 @@ body .nav a:hover {
     padding-top: $padding;
     height: 100%;
     background: #191919;
+        color: lighten($primary-color, 30%);
+
     padding-right: $padding;
     font-size: 15px;
     #side-nav {

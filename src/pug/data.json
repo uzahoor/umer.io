@@ -28,55 +28,54 @@
                     "title": "AngularJS",
                     "exp": "2 Years Experience",
                     "img": "https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg",
-                    "rating": 3.5,
+                    "rating": 4.5,
                     "points": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+                        "Built and maintained an access control administrative web page to be used by building managers, built using AngularJS.",
+                        "Built hardware testing and monitoring web page for access control device to be used for device testing and diagnostics, using AngularJS.",
+                        "Taken three courses for Angular one hosted by Angular Academy and two hosted by Rangle.io."
                     ]
                 },
                 {
-                    "title": "JavaScript",
-                    "exp": "2 Years Experience",
-                    "img": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
-                    "rating": 3.5,
+                    "title": "Java",
+                    "exp": "5 Years Experience",
+                    "img": "https://vignette4.wikia.nocookie.net/spore/images/2/2e/Java_Logo.svg/revision/latest?cb=20101031041704",
+                    "rating": 4.5,
                     "points": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+                        "Maintained an emergency response administrative page using Java, Apache Tomcat, and Java Spring.",
+                        "Built a parking kiosk touch screen application to be used by commuters to pay for parking. Built using Java and Java Swing.",
+                        "Built a program to convert a raw music sheet to a human readable PDF music sheet. Built using Java and Java Swing."
                     ]
                 },
                 {
                     "title": "jQuery",
-                    "exp": "2 Years Experience",
+                    "exp": "4 Years Experience",
                     "img": "http://precision-software.com/wp-content/uploads/2014/04/jQurery.gif",
-                    "rating": 3.5,
+                    "rating": 4,
                     "points": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+                        "Maintained an access control administrative web page for building managers, built using JQuery. Which was later converted to an AngularJS application.",
+                        "Taken various courses that cover JQuery at York University."
                     ]
                 },
                 {
                     "title": "HTML5 ",
-                    "exp": "2 Years Experience",
+                    "exp": "5 Years Experience",
                     "img": "https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg",
-                    "rating": 3.5,
+                    "rating": 4.5,
                     "points": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+                        "Built and maintained an access control administrative web page for building managers, built using HTML5 and AngularJS templating.",
+                        "Built this webpage using PugJS a HTML templating engine, please feel free to check out the code on <a href='https://github.com/uzahoor/umer.io'>GitHub</a>.",
+                        "Taken various courses that cover HTML5 at York University."
                     ]
                 },
                 {
                     "title": "SASS",
-                    "exp": "2 Years Experience",
+                    "exp": "1 Year Experience",
                     "img": "http://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png",
                     "rating": 3.5,
                     "points": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+                        "Built this webpage using SASS, please feel free to check out the code on <a href='https://github.com/uzahoor/umer.io'>GitHub</a>.",
+                        "Styled an access control administrative web page for building managers using Bootstrap and SASS.",
+                        "Styled hardware testing and monitoring web page for access control device, using SASS."
                     ]
                 },
                 {
@@ -85,31 +84,8 @@
                     "img": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Boostrap_logo.svg",
                     "rating": 3.5,
                     "points": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
-                    ]
-                },
-                {
-                    "title": "CSS3 ",
-                    "exp": "2 Years Experience",
-                    "img": "https://rangle.io/images/services/css3-01.svg",
-                    "rating": 3.5,
-                    "points": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
-                    ]
-                },
-                {
-                    "title": "Slim Framework ",
-                    "exp": "2 Years Experience",
-                    "img": "http://stacksummation.com/assets/img/tech/slim.jpg",
-                    "rating": 3.5,
-                    "points": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+                        "Built this webpage using a bootstrap, please feel free to check out the code on <a href='https://github.com/uzahoor/umer.io'>GitHub</a>.",
+                        "Styled an access control administrative web page for building managers using Bootstrap and SASS."
                     ]
                 },
                 {
@@ -118,22 +94,10 @@
                     "exp": "2 Years Experience",
                     "rating": 3.5,
                     "points": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
-                    ]
-                },
-                {
-                    "title": "Java",
-                    "exp": "2 Years Experience",
-                    "img": "https://vignette4.wikia.nocookie.net/spore/images/2/2e/Java_Logo.svg/revision/latest?cb=20101031041704",
-                    "rating": 3.5,
-                    "points": [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+                        "Built and maintained a REST API for an access control administrative web page to be used by building managers, built using PHP, Slim Framework."
                     ]
                 }
+                
             ]
         },
         {

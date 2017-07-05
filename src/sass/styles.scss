@@ -17,23 +17,52 @@ body {
 }
 
 .tsLogo {
-    width: 100px;
+    width: 50px;
 }
 
 .sectionTitle {
-  font-family: $font-name;
-  font-weight: bold;
+    font-family: $font-name;
+    font-weight: bold;
 }
 
 // .tsMedia {
 //   max-width: 50%; 
 //   min-width: 310px; 
 // }
-
 .tsPoints {
-  margin-left: -20px;
+    padding: 25px;
 }
 
 .eduLogo {
-  width: 150px;
+    width: 150px;
+}
+
+// mobile css
+@media only screen and (max-width: 890px) {
+    .sidebar {
+        position: relative;
+        width: 100%;
+        padding-top: $padding - 25px;
+        padding-right: $padding - 25px;
+        padding-bottom: $padding - 25px;
+    }
+    .content {
+        margin-left: 0px;
+        height: 100%;
+        overflow: hidden;
+        z-index: 1;
+        padding: $padding - 25px;
+    }
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
 }

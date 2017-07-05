@@ -1,5 +1,5 @@
 - var techSkills = data.sections[0];
-h2.sectionTitle.clearfix(id=techSkills.title.shortName)
+h2.sectionTitle.clearfix
   i.fa(aria-hidden='true' class=techSkills.title.icon)
   |  #{ techSkills.title.name }
 hr
@@ -9,11 +9,12 @@ hr
         .media.tsMedia
           .media-left.media-middle.ts_logo
             img.media-object.tsLogo(src=skill.img, alt='...')
-          .media-body.media-middle
+          .media-body
             h3.media-heading
-              | #{ skill.title } 
-              small
-                | #{ skill.exp } 
+              | #{ skill.title }
+              p
+                small
+                  | #{ skill.exp } 
                 //- - var fullStars = Math.floor(skill.rating);
                 //- - for (var x = 0; x < fullStars; x++)
                 //-   i.fa.fa-star(aria-hidden='true')
@@ -22,7 +23,7 @@ hr
                 //- - var emptyStars = 5 - Math.ceil(skill.rating);
                 //- - for (var x = 0; x < emptyStars; x++)
                 //-   i.fa.fa-star-o(aria-hidden='true')
-            ul.tsPoints
-              each point in skill.points
-                li
-                  | #{ point } 
+          ul.tsPoints
+            each point in skill.points
+              li
+                | !{ point } 

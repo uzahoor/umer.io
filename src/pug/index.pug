@@ -30,7 +30,7 @@ html(lang='en')
 
     .sidebar
       include sideBar.pug
-    .content
+    .content(id=data.sections[0].title.shortName)
       include techSkills.pug
       include exp.pug
       include edu.pug
@@ -42,7 +42,6 @@ html(lang='en')
     //-     include edu.pug
     //- .sidebar
     //-   include sideBar.pug
-      
 
     //- .container-fluid
     //-   .row

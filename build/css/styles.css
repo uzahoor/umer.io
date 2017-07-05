@@ -3333,6 +3333,7 @@ body .nav a:hover {
   padding-top: 50px;
   height: 100%;
   background: #191919;
+  color: gray;
   padding-right: 50px;
   font-size: 15px; }
   .sidebar #side-nav {
@@ -3353,14 +3354,39 @@ body {
   background-color: #fafafa; }
 
 .tsLogo {
-  width: 100px; }
+  width: 50px; }
 
 .sectionTitle {
   font-family: "Playfair Display SC", serif;
   font-weight: bold; }
 
 .tsPoints {
-  margin-left: -20px; }
+  padding: 25px; }
 
 .eduLogo {
   width: 150px; }
+
+@media only screen and (max-width: 890px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px; }
+  .content {
+    margin-left: 0px;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+    padding: 25px; } }
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap; }
+
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column; }
