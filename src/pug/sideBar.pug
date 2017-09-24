@@ -1,28 +1,32 @@
-h1.clearfix.pull-right.name.animated.fadeInLeft #{ data.personal.name }
-br
-br
-br
-br
-ul.list-unstyled
-  each detail in data.personal.details
-    li.clearfix
-      .pull-right
-        | #{ detail.label } &nbsp; &nbsp;
-        i.fa.fa-fw.fa-lg(aria-hidden='true' class=detail.icon)
-.pull-right
-  a(href="https://www.linkedin.com/in/umer-zahoor-44b04955/")
-    i.fa.fa-fw.fa-2x.fa-linkedin
-  a(href="https://github.com/uzahoor")
-    i.fa.fa-fw.fa-2x.fa-github
-  a(href="https://stackoverflow.com/users/2865198/umer-z")
-    i.fa.fa-fw.fa-2x.fa-stack-overflow
-br
-br
-div(id="side-nav")
-  ul.nav.nav-list.list-unstyled
-    each section in data.sections
+#stars
+#stars2
+#stars3
+.info
+  h1.clearfix.pull-right.name.animated.fadeInLeft #{ data.personal.name }
+  br
+  br
+  br
+  br
+  ul.list-unstyled
+    each detail in data.personal.details
       li.clearfix
-        a.pull-right(href="#"+section.title.shortName)
-          | #{ section.title.name } &nbsp; &nbsp;
-          i.fa.fa-fw.fa-lg(aria-hidden='true' class=section.title.icon)
+        .pull-right
+          | #{ detail.label } &nbsp; &nbsp;
+          i.fa.fa-fw.fa-lg(aria-hidden='true' class=detail.icon)
+  .pull-right
+    a(href="https://www.linkedin.com/in/umer-zahoor-44b04955/")
+      i.fa.fa-fw.fa-2x.fa-linkedin
+    a(href="https://github.com/uzahoor")
+      i.fa.fa-fw.fa-2x.fa-github
+    a(href="https://stackoverflow.com/users/2865198/umer-z")
+      i.fa.fa-fw.fa-2x.fa-stack-overflow
+  br
+  br
+  div(id="side-nav")
+    ul.nav.nav-list.list-unstyled
+      each section in data.sections
+        li.clearfix
+          a.pull-right(href="#"+section.title.shortName)
+            | #{ section.title.name } &nbsp; &nbsp;
+            i.fa.fa-fw.fa-lg(aria-hidden='true' class=section.title.icon)
             

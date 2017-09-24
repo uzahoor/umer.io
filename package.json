@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "live-server": "live-server --watch=build --open=build",
     "build:html": "nodemon --watch src/pug -e pug,json --exec \"node tasks/pug.js\"",
-
-    "build:scss": "nodemon --watch src/sass -e .scss --exec \"node tasks/sass.js\"",
-    "build": "concurrently --kill-others \"npm run build:scss\" \"npm run live-server\" \"npm run build:html\""
+    "build:scss": "nodemon --watch src/sass -e scss,sass --exec \"node tasks/sass.js\"",
+    "build:image": "nodemon --watch src/img -e jpg,png --exec \"node tasks/image.js\"",
+    "build": "concurrently --kill-others \"npm run build:scss\" \"npm run live-server\" \"npm run build:html\" \"npm run build:image\""
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,9 @@
   "devDependencies": {
     "concurrently": "^3.4.0",
     "html-minifier": "^3.5.2",
+    "imagemin": "^5.3.1",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-pngquant": "^5.0.1",
     "live-server": "^1.2.0",
     "node-sass": "^4.5.3",
     "nodemon": "^1.11.0",

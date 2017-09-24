@@ -27,7 +27,7 @@
                 {
                     "title": "AngularJS",
                     "exp": "2 Years Experience",
-                    "img": "https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg",
+                    "img": "img/angular.svg",
                     "rating": 4.5,
                     "points": [
                         "Built and maintained an access control administrative web page to be used by building managers, built using AngularJS.",
@@ -38,7 +38,7 @@
                 {
                     "title": "Java",
                     "exp": "5 Years Experience",
-                    "img": "https://vignette4.wikia.nocookie.net/spore/images/2/2e/Java_Logo.svg/revision/latest?cb=20101031041704",
+                    "img": "img/java.png",
                     "rating": 4.5,
                     "points": [
                         "Maintained an emergency response administrative page using Java, Apache Tomcat, and Java Spring.",
@@ -49,7 +49,7 @@
                 {
                     "title": "jQuery",
                     "exp": "4 Years Experience",
-                    "img": "http://precision-software.com/wp-content/uploads/2014/04/jQurery.gif",
+                    "img": "img/jQuery.gif",
                     "rating": 4,
                     "points": [
                         "Maintained an access control administrative web page for building managers, built using JQuery. Which was later converted to an AngularJS application.",
@@ -59,7 +59,7 @@
                 {
                     "title": "HTML5 ",
                     "exp": "5 Years Experience",
-                    "img": "https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg",
+                    "img": "img/html5.svg",
                     "rating": 4.5,
                     "points": [
                         "Built and maintained an access control administrative web page for building managers, built using HTML5 and AngularJS templating.",
@@ -70,7 +70,7 @@
                 {
                     "title": "SASS",
                     "exp": "1 Year Experience",
-                    "img": "http://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png",
+                    "img": "img/sass.png",
                     "rating": 3.5,
                     "points": [
                         "Built this webpage using SASS, please feel free to check out the code on <a href='https://github.com/uzahoor/umer.io'>GitHub</a>.",
@@ -81,7 +81,7 @@
                 {
                     "title": "Bootstrap ",
                     "exp": "2 Years Experience",
-                    "img": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Boostrap_logo.svg",
+                    "img": "img/bootstrap.svg",
                     "rating": 3.5,
                     "points": [
                         "Built this webpage using a bootstrap, please feel free to check out the code on <a href='https://github.com/uzahoor/umer.io'>GitHub</a>.",
@@ -90,7 +90,7 @@
                 },
                 {
                     "title": "PHP",
-                    "img": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
+                    "img": "img/php.svg",
                     "exp": "2 Years Experience",
                     "rating": 3.5,
                     "points": [
@@ -151,7 +151,7 @@
                     "name": "York University",
                     "time": "Oct 2015",
                     "location": "Toronto, ON",
-                    "img": "http://www.cse.yorku.ca/~johnlam/Lassonde_300.gif",
+                    "img": "img/lassonde.jpg",
                     "degree": "Bachelor of Science in Computer Science"
                 }
             ]

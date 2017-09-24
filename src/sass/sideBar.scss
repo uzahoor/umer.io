@@ -36,6 +36,8 @@ body .nav a:hover {
             margin-right: $padding;
         }
     }
+    background: linear-gradient(#061D2B,black);
+    height: 100%;
 }
 
 .content {
@@ -46,3 +48,9 @@ body .nav a:hover {
     z-index: 1;
     padding: $padding;
 }
+
+.info {
+    
+}
+
+@import 'stars';
