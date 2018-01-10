@@ -2,7 +2,8 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css";
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 @import "https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto";
-@import "_bootstrapCustom.scss";
+//@import "_bootstrapCustom.scss";
+@import "bootstrap4/bootstrap.scss";
 $font-name: 'Playfair Display SC',
 serif;
 $font-body: 'Roboto',
@@ -38,7 +39,8 @@ body {
 }
 
 .eduLogo {
-    width: 150px;
+    max-width: 150px;
+    max-height: 70px;
 }
 
 // mobile css

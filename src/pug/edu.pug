@@ -3,12 +3,15 @@ h2.sectionTitle.clearfix(id=education.title.shortName)
   i.fa(aria-hidden='true' class=education.title.icon)
   |  #{ education.title.name }
 hr
-each ed in education.edu
-  .media
-    .media-body.media-middle
-      p #{ ed.degree }
-      |  #{ ed.name } /
-      |  #{ ed.time } /
-      |  #{ ed.location }
-    .media-right
-      img.eduLogo(src=ed.img)
+ul.list-group
+  each ed in education.edu
+    li.list-group-item
+      .media
+        .media-body.media-middle
+          h5 #{ ed.degree }
+          p
+          |  #{ ed.name } /
+          |  #{ ed.time } /
+          |  #{ ed.location }
+        .media-right
+          img.eduLogo(src=ed.img)

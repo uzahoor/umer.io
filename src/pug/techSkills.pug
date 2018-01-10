@@ -1,29 +1,53 @@
+//- - var techSkills = data.sections[0];
+//- h2.sectionTitle.clearfix
+//-   i.fa(aria-hidden='true' class=techSkills.title.icon)
+//-   |  #{ techSkills.title.name }
+//- hr
+//- .row
+//-     each skill in techSkills.skills
+//-       .col-lg-6
+//-         .media.tsMedia
+//-           .media-left.media-middle.ts_logo
+//-             img.media-object.tsLogo(src=skill.img, alt='...')
+//-           .media-body
+//-             h3.media-heading
+//-               | #{ skill.title }
+//-               p
+//-                 small
+//-                   | #{ skill.exp } 
+//-           ul.tsPoints
+//-             each point in skill.points
+//-               li
+//-                 | !{ point } 
+
 - var techSkills = data.sections[0];
 h2.sectionTitle.clearfix
   i.fa(aria-hidden='true' class=techSkills.title.icon)
   |  #{ techSkills.title.name }
 hr
-.row
+
+//- Dark title 
+//- .card.text-white.bg-dark.mb-3
+//-   .card-body
+//-     h2.sectionTitle.clearfix
+//-       i.fa(aria-hidden='true' class=techSkills.title.icon)
+//-       |  #{ techSkills.title.name }
+
+.container
+  .row
     each skill in techSkills.skills
       .col-lg-6
-        .media.tsMedia
-          .media-left.media-middle.ts_logo
-            img.media-object.tsLogo(src=skill.img, alt='...')
-          .media-body
-            h3.media-heading
-              | #{ skill.title }
-              p
-                small
-                  | #{ skill.exp } 
-                //- - var fullStars = Math.floor(skill.rating);
-                //- - for (var x = 0; x < fullStars; x++)
-                //-   i.fa.fa-star(aria-hidden='true')
-                //- if Math.floor(skill.rating) != skill.rating
-                //-   i.fa.fa-star-half-o(aria-hidden='true')
-                //- - var emptyStars = 5 - Math.ceil(skill.rating);
-                //- - for (var x = 0; x < emptyStars; x++)
-                //-   i.fa.fa-star-o(aria-hidden='true')
-          ul.tsPoints
+        .card.text-white.bg-dark.mb-3
+          .card-body
+            .container
+              .row
+                .col
+                  h4.card-title #{ skill.title }
+                  h6.card-subtitle.mb-2 #{ skill.exp }
+                .col
+                  .text-right
+                    img.media-object.tsLogo(src=skill.img, alt='...')
+          ul.list-group.list-group-flush.text-dark
             each point in skill.points
-              li
+              li.list-group-item
                 | !{ point } 

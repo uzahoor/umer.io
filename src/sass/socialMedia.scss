@@ -1,0 +1,39 @@
+.me {
+    display: block;
+    margin: 2em auto;
+    //margin-bottom: 3em;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 0px 500px 50px #6D500B;
+}
+
+.social {
+    text-align: center;
+    font-size: 1em;
+    color: #555;
+    overflow: hidden;
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+    i {
+        margin: .3em;
+        cursor: pointer;
+
+        &#github:hover {
+            color: #fff;
+        }
+        &#linkedin:hover {
+            color: #0177B5;
+        }
+        &#stack:hover {
+            color: #ED780E;
+        }
+        &#mail:hover {
+            color: #F7B401;
+        }
+    }
+}

@@ -1,10 +1,10 @@
 $sidebar-width: 35%;
 $padding: 50px;
-
 .name {
     font-family: $font-name;
     color: white;
 }
+
 
 body .nav-list>.active>a {
     background-color: $background-color;
@@ -16,19 +16,20 @@ body .nav-list>.active>a:hover {
 }
 
 body .nav a:hover {
-    color: $primary-color;
-    background-color: $primary-color;
+    padding: 7px;
+    background-color: $background-color;
 }
+
+body .nav a {
+    border-radius: 2px 0px 0px 2px;
+}
+
 
 .sidebar {
     position: fixed;
     width: $sidebar-width;
-    padding-top: $padding;
     height: 100%;
-    background: #191919;
-        color: lighten($primary-color, 30%);
-
-    padding-right: $padding;
+    color: lighten($primary-color, 30%); //padding-right: $padding;
     font-size: 15px;
     #side-nav {
         margin-right: -$padding;
@@ -36,8 +37,13 @@ body .nav a:hover {
             margin-right: $padding;
         }
     }
-    background: linear-gradient(#061D2B,black);
-    height: 100%;
+    background: radial-gradient(circle at bottom, #1B2735 0%, #090A0F 100%);
+}
+
+@media only screen and (min-width: 890px) {
+    .info {
+        padding-right: $padding;
+    }
 }
 
 .content {
@@ -49,8 +55,10 @@ body .nav a:hover {
     padding: $padding;
 }
 
-.info {
-    
+// Overwrite border radius of bootstrap
+.nav-pills .nav-link {
+    border-radius: 0;
 }
 
 @import 'stars';
+@import 'socialMedia';

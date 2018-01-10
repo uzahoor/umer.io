@@ -35,6 +35,7 @@
                         "Taken three courses for Angular one hosted by Angular Academy and two hosted by Rangle.io."
                     ]
                 },
+
                 {
                     "title": "Java",
                     "exp": "5 Years Experience",
@@ -113,27 +114,44 @@
                     "position": "Web Developer",
                     "projects": [
                         {
-                            "name": "Web based configuration tool",
-                            "summary": "Building a web page variant of an existing application which is used to configure various access control devices. Make modifications to settings such as schedules, resident directory, credentials, etc.",
+                            "name": "Single page application for access control system",
+                            "summary": "Build and maintain a front end used to configure settings such as resident directory, schedules, credentials, access points, etc. Allow monitoring of access control devices to give live data on the status of access points.",
                             "points": [
-                                "Build a responsive user interface using AngularJS, Bootstrap, JQuery, JavaScript, CSS, and HTML.",
-                                "Build a REST API using MySQL, Apache, PHP, and Slim Framework (PHP framework)."
+                                "Build and maintain a responsive user interface using AngularJS, Bootstrap, SASS, Webpack, JQuery, JavaScript, CSS, and HTML.",
+                                "Using web sockets to get status of access points, allowing user to see who is entering and if there is any trouble at an access point."
                             ]
                         },
+                        {
+                            "name": "Cloud based solution for access control system",
+                            "summary": "Creating a cloud based solution to manage and monitor access control systems.",
+                            "points": [
+                                "Database built using MySQL and exposed using a REST API, hosted on Amazon RDS. REST API built using PHP, Slim Framework (PHP framework) and hosted using Amazon EC2.",
+                                "Device events handled through web sockets to allow live monitoring and instantaneous responses on correlated devices."
+                            ]
+                        },
+
+                        {
+                            "name": "Web based hardware testing tool",
+                            "summary": "Building a web page used to monitor and record hardware test results for the numerous sensors, components and inputs.",
+                            "points": [
+                                "Receiving live data through web sockets and then displaying the data using Angular and Chart.js to visualize and record hardware test results."
+                            ]
+                        },
+
                         {
                             "name": "MiEntry (Access control app)",
                             "summary": "Provide residents with a mobile app that allows video calls from access panels and to use a mobile device in place of an access card.",
                             "points": [
-                                "Created specifications for team in India to develop for both Android and iOS.",
-                                "Created test plan to ensure that the specification was met.",
-                                "Reviewed code to ensure maintainability and prevent potential bugs."
+                                "Created specifications for team in India to develop for both Android and iOS",
+                                "Created test plan to ensure that the specification was met."
                             ]
                         },
+
                         {
                             "name": "Metis Secure (Emergency notification)",
                             "summary": "Maintaining command center web page, which controls various alarm devices. Being able to send alerts, respond to request for helps with live audio calls, and notify through e-mail and SMS.",
                             "points": [
-                                "Using Java, Maven, JavaScript, NetBeans, and Spring Framework"
+                                "Using Java, Maven, JavaScript, NetBeans, and Spring Framework."
                             ]
                         }
                     ]
@@ -153,6 +171,27 @@
                     "location": "Toronto, ON",
                     "img": "img/lassonde.jpg",
                     "degree": "Bachelor of Science in Computer Science"
+                },
+                {
+                    "name": "Angular Academy",
+                    "time": "Feb 2016",
+                    "location": "Toronto, ON",
+                    "img": "img/aa.png",
+                    "degree": "Training for AngularJS 1"
+                },
+                {
+                    "name": "Rangle.io",
+                    "time": "Sept 2016, Nov 2016",
+                    "location": "Vaughan, ON",
+                    "img": "img/rangleio.png",
+                    "degree": "Two training sessions for Angular 2"
+                },
+                {
+                    "name": "Udemy",
+                    "time": "Nov 2017",
+                    "location": "Online",
+                    "img": "img/udemy.png",
+                    "degree": "Complete React JS web developer with ES6"
                 }
             ]
         }

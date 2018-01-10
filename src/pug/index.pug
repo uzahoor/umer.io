@@ -23,17 +23,21 @@ html(lang='en')
     +vr/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\
     AAAAAAAAAAAAAA==', rel='icon', type='image/x-icon')
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
-    link(rel='stylesheet', href='css/styles.css')
-    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
-    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
-  body.animated.fadeIn(data-spy="scroll" data-target="#side-nav" data-offset="50")
+    title Umer Zahoor
+
+  body.animated.fadeIn(data-spy="scroll" data-target=".navbar" data-offset="50")
 
     .sidebar
       include sideBar.pug
     .content(id=data.sections[0].title.shortName)
       include techSkills.pug
+      br
       include exp.pug
+      br
       include edu.pug
+    link(rel='stylesheet', href='css/styles.css')
+    //- script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js')
+    //- script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
 
     //- .article-wrap
     //-   .article-content
@@ -59,23 +63,3 @@ html(lang='en')
     //-   include techSkills.pug
     //-   include exp.pug
     //-   include edu.pug
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
