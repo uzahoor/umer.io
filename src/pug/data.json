@@ -3,7 +3,7 @@
         "name": "Umer Zahoor",
         "details": [
             {
-                "label": "Web Developer",
+                "label": "Front End Developer",
                 "icon": "fa-briefcase"
             },
             {
@@ -19,6 +19,17 @@
     "sections": [
         {
             "title": {
+                "name": "Summary",
+                "icon": "fa-id-badge",
+                "shortName": "summ"
+            },
+            "job" : {
+                "title": "Front End Developer",
+                "desc": "Driven front end developer with experience on both the back end and front end development, with a focus on front end development. Experienced with development from the white board to largescale single page applications. Quick learner, ready to adapt to this rapidly shifting World Wide Web."
+            }
+        },
+        {
+            "title": {
                 "name": "Technical Skills",
                 "icon": "fa-terminal",
                 "shortName": "ts"
@@ -26,77 +37,106 @@
             "skills": [
                 {
                     "title": "AngularJS",
-                    "exp": "2 Years Experience",
-                    "img": "img/angular.svg",
-                    "rating": 4.5,
-                    "points": [
-                        "Built and maintained an access control administrative web page to be used by building managers, built using AngularJS.",
-                        "Built hardware testing and monitoring web page for access control device to be used for device testing and diagnostics, using AngularJS.",
-                        "Taken three courses for Angular one hosted by Angular Academy and two hosted by Rangle.io."
-                    ]
+                    "exp": "2 Years",
+                    "expPercentage": 100,
+                    "img": "img/angular.svg"
                 },
 
                 {
                     "title": "Java",
-                    "exp": "5 Years Experience",
-                    "img": "img/java.png",
-                    "rating": 4.5,
-                    "points": [
-                        "Maintained an emergency response administrative page using Java, Apache Tomcat, and Java Spring.",
-                        "Built a parking kiosk touch screen application to be used by commuters to pay for parking. Built using Java and Java Swing.",
-                        "Built a program to convert a raw music sheet to a human readable PDF music sheet. Built using Java and Java Swing."
-                    ]
+                    "exp": "5 Years",
+                    "expPercentage": 90,
+                    "img": "img/java.svg"
                 },
                 {
                     "title": "jQuery",
-                    "exp": "4 Years Experience",
-                    "img": "img/jQuery.gif",
-                    "rating": 4,
-                    "points": [
-                        "Maintained an access control administrative web page for building managers, built using JQuery. Which was later converted to an AngularJS application.",
-                        "Taken various courses that cover JQuery at York University."
-                    ]
+                    "exp": "4 Years",
+                    "expPercentage": 80,
+                    "img": "img/jquery.svg"
                 },
                 {
                     "title": "HTML5 ",
-                    "exp": "5 Years Experience",
-                    "img": "img/html5.svg",
-                    "rating": 4.5,
-                    "points": [
-                        "Built and maintained an access control administrative web page for building managers, built using HTML5 and AngularJS templating.",
-                        "Built this webpage using PugJS a HTML templating engine, please feel free to check out the code on <a href='https://github.com/uzahoor/umer.io'>GitHub</a>.",
-                        "Taken various courses that cover HTML5 at York University."
-                    ]
+                    "exp": "5 Years",
+                    "expPercentage": 90,
+                    "img": "img/html5.svg"
                 },
                 {
                     "title": "SASS",
-                    "exp": "1 Year Experience",
-                    "img": "img/sass.png",
-                    "rating": 3.5,
-                    "points": [
-                        "Built this webpage using SASS, please feel free to check out the code on <a href='https://github.com/uzahoor/umer.io'>GitHub</a>.",
-                        "Styled an access control administrative web page for building managers using Bootstrap and SASS.",
-                        "Styled hardware testing and monitoring web page for access control device, using SASS."
-                    ]
+                    "exp": "1 Year",
+                    "expPercentage": 80,
+                    "img": "img/sass.svg"
                 },
                 {
                     "title": "Bootstrap ",
-                    "exp": "2 Years Experience",
-                    "img": "img/bootstrap.svg",
-                    "rating": 3.5,
-                    "points": [
-                        "Built this webpage using a bootstrap, please feel free to check out the code on <a href='https://github.com/uzahoor/umer.io'>GitHub</a>.",
-                        "Styled an access control administrative web page for building managers using Bootstrap and SASS."
-                    ]
+                    "exp": "2 Years",
+                    "expPercentage": 90,
+                    "img": "img/bootstrap.svg"
                 },
                 {
                     "title": "PHP",
                     "img": "img/php.svg",
-                    "exp": "2 Years Experience",
-                    "rating": 3.5,
-                    "points": [
-                        "Built and maintained a REST API for an access control administrative web page to be used by building managers, built using PHP, Slim Framework."
-                    ]
+                    "expPercentage": 60,
+                    "exp": "2 Years"
+                },
+                {
+                    "title": "JavaScript",
+                    "img": "img/javascript.svg",
+                    "expPercentage": 90,
+                    "exp": "3 Years"
+                },
+                {
+                    "title": "Git",
+                    "img": "img/git.svg",
+                    "expPercentage": 90,
+                    "exp": "3 Years"
+                },
+                {
+                    "title": "Jira",
+                    "img": "img/jira.svg",
+                    "expPercentage": 70,
+                    "exp": "1 Year"
+                },
+                {
+                    "title": "Excel",
+                    "img": "img/microsoftexcel.svg",
+                    "expPercentage": 80,
+                    "exp": "6 Years"
+                },
+                {
+                    "title": "PowerPoint",
+                    "img": "img/microsoftpowerpoint.svg",
+                    "expPercentage": 90,
+                    "exp": "7 Years"
+                },
+                {
+                    "title": "Word",
+                    "img": "img/microsoftword.svg",
+                    "expPercentage": 100,
+                    "exp": "8 Years"
+                },
+                {
+                    "title": "MySQL",
+                    "img": "img/mysql.svg",
+                    "expPercentage": 70,
+                    "exp": "3 Years"
+                },
+                {
+                    "title": "React",
+                    "img": "img/react.svg",
+                    "expPercentage": 50,
+                    "exp": "4 Months"
+                },
+                {
+                    "title": "Redux",
+                    "img": "img/redux.svg",
+                    "expPercentage": 40,
+                    "exp": "4 Months"
+                },
+                {
+                    "title": "Webpack",
+                    "img": "img/webpack.svg",
+                    "expPercentage": 70,
+                    "exp": "6 Months"
                 }
                 
             ]
@@ -112,48 +152,23 @@
                     "company": "Mircom Group of Companies",
                     "time": "Sept 2015 - Current",
                     "position": "Web Developer",
-                    "projects": [
-                        {
-                            "name": "Single page application for access control system",
-                            "summary": "Build and maintain a front end used to configure settings such as resident directory, schedules, credentials, access points, etc. Allow monitoring of access control devices to give live data on the status of access points.",
-                            "points": [
-                                "Build and maintain a responsive user interface using AngularJS, Bootstrap, SASS, Webpack, JQuery, JavaScript, CSS, and HTML.",
-                                "Using web sockets to get status of access points, allowing user to see who is entering and if there is any trouble at an access point."
-                            ]
-                        },
-                        {
-                            "name": "Cloud based solution for access control system",
-                            "summary": "Creating a cloud based solution to manage and monitor access control systems.",
-                            "points": [
-                                "Database built using MySQL and exposed using a REST API, hosted on Amazon RDS. REST API built using PHP, Slim Framework (PHP framework) and hosted using Amazon EC2.",
-                                "Device events handled through web sockets to allow live monitoring and instantaneous responses on correlated devices."
-                            ]
-                        },
-
-                        {
-                            "name": "Web based hardware testing tool",
-                            "summary": "Building a web page used to monitor and record hardware test results for the numerous sensors, components and inputs.",
-                            "points": [
-                                "Receiving live data through web sockets and then displaying the data using Angular and Chart.js to visualize and record hardware test results."
-                            ]
-                        },
-
-                        {
-                            "name": "MiEntry (Access control app)",
-                            "summary": "Provide residents with a mobile app that allows video calls from access panels and to use a mobile device in place of an access card.",
-                            "points": [
-                                "Created specifications for team in India to develop for both Android and iOS",
-                                "Created test plan to ensure that the specification was met."
-                            ]
-                        },
-
-                        {
-                            "name": "Metis Secure (Emergency notification)",
-                            "summary": "Maintaining command center web page, which controls various alarm devices. Being able to send alerts, respond to request for helps with live audio calls, and notify through e-mail and SMS.",
-                            "points": [
-                                "Using Java, Maven, JavaScript, NetBeans, and Spring Framework."
-                            ]
-                        }
+                    "points": [
+                        "Designed and developed responsive single page applications used for access control management and access control device testing.",
+                        "Utilized current front end development tools such as Webpack, AngularJS, and SASS.",
+                        "Developed back end (REST API and database) for access control management application",
+                        "Worked with graphic designers to make custom SASS rules to make Bootstrap fit company design guidelines",
+                        "Tested front end JavaScript code for cross-browser compatibility with 95% code coverage.",
+                        "Reviewed code and created test plan to ensure specification were met by development team in India, for Android and iOS app.",
+                        "Worked in both Agile and Waterfall settings."
+                    ]
+                },
+                {
+                    "company": "Personal",
+                    "time": "Ongoing",
+                    "position": "Human Being",
+                    "points": [
+                        "Developed resume webpage for myself (http://umer.io) using NPM scripts, SASS, Animate.css, PugJS (HTML templating engine)",
+                        "Developed simple weather forecast application (http://umer.io/weatherApp) using Redux and React."
                     ]
                 }
             ]

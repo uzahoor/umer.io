@@ -30,6 +30,8 @@ html(lang='en')
     .sidebar
       include sideBar.pug
     .content(id=data.sections[0].title.shortName)
+      include summary.pug
+      br
       include techSkills.pug
       br
       include exp.pug

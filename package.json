@@ -9,7 +9,7 @@
     "build:html": "nodemon --watch src/pug -e pug,json --exec \"node tasks/pug.js\"",
     "build:scss": "nodemon --watch src/sass -e scss,sass --exec \"node tasks/sass.js\"",
     "build:image": "nodemon --watch src/img -e jpg,png --exec \"node tasks/image.js\"",
-    "build": "concurrently --kill-others \"npm run build:scss\" \"npm run live-server\" \"npm run build:html\" \"npm run build:image\""
+    "build": "concurrently --kill-others \"npm run build:scss\" \"npm run live-server\" \"npm run build:html\""
   },
   "keywords": [],
   "author": "",

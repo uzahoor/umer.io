@@ -20,9 +20,9 @@
 //-               li
 //-                 | !{ point } 
 
-- var techSkills = data.sections[0];
-h2.sectionTitle.clearfix
-  i.fa(aria-hidden='true' class=techSkills.title.icon)
+- var techSkills = data.sections[1];
+h2.sectionTitle.clearfix(id=techSkills.title.shortName)
+  i.fa.pull-right(aria-hidden='true' class=techSkills.title.icon)
   |  #{ techSkills.title.name }
 hr
 
@@ -36,18 +36,34 @@ hr
 .container
   .row
     each skill in techSkills.skills
-      .col-lg-6
-        .card.text-white.bg-dark.mb-3
-          .card-body
-            .container
-              .row
-                .col
-                  h4.card-title #{ skill.title }
-                  h6.card-subtitle.mb-2 #{ skill.exp }
-                .col
-                  .text-right
-                    img.media-object.tsLogo(src=skill.img, alt='...')
-          ul.list-group.list-group-flush.text-dark
-            each point in skill.points
-              li.list-group-item
-                | !{ point } 
+      .col-md-4.col-lg-3.col-6
+        .progress(data-percentage=skill.expPercentage)
+          span.progress-left
+            span.progress-bar
+          span.progress-right
+            span.progress-bar
+          .progress-value
+            div
+              img.tsLogo(src=skill.img, alt='...')
+              br
+              span
+                | #{ skill.title }
+                h6 #{ skill.exp }
+
+  //- .row
+  //-   each skill in techSkills.skills
+  //-     .col-lg-6
+  //-       .card.text-white.bg-dark.mb-3
+  //-         .card-body
+  //-           .container
+  //-             .row
+  //-               .col
+  //-                 h4.card-title #{ skill.title }
+  //-                 h6.card-subtitle.mb-2 #{ skill.exp }
+  //-               .col
+  //-                 .text-right
+  //-                   img.media-object.tsLogo(src=skill.img, alt='...')
+  //-         ul.list-group.list-group-flush.text-dark
+  //-           each point in skill.points
+  //-             li.list-group-item
+  //-               | !{ point } 

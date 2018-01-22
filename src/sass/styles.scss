@@ -1,4 +1,5 @@
 @import "bourbon/bourbon";
+@import "brands.scss";
 @import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css";
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 @import "https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto";
@@ -12,17 +13,18 @@ $background-color: #fafafa;
 $primary-color: #333;
 $secondary-color: darken( $background-color, 40%);
 @import "sideBar.scss";
+@import "circularProgress.scss";
 body {
     font-family: $font-body;
     background-color: $background-color;
 }
 
 .tsLogo {
-    width: 50px;
+    height: 50px;
 }
 
 .content {
-  max-width: 1000px
+    max-width: 1000px
 }
 
 .sectionTitle {
@@ -43,6 +45,34 @@ body {
     max-height: 70px;
 }
 
+.jumbotron {
+    background: radial-gradient(circle at bottom, #1B2735 0%, #090A0F 100%);
+    color: $background-color;
+    height: 80vh;
+}
+
+.my-4 {
+    background-color: $background-color;
+}
+
+.card {
+    margin-top: 10px;
+}
+.card-header {
+    padding-top: 30px;
+}
+.card-block {
+    margin: 25px;
+}
+.vertical-center {
+    min-height: 100%;
+    /* Fallback for browsers do NOT support vh unit */
+    min-height: 80vh;
+    /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+}
+
 // mobile css
 @media only screen and (max-width: 890px) {
     .sidebar {
@@ -59,16 +89,23 @@ body {
         z-index: 1;
         padding: $padding - 25px;
     }
+    .jumbotron {
+        height: 100%;
+    }
+    .sectionTitle {
+        font-size: 2.5rem;
+    }
 }
 
 .row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
-  flex-wrap: wrap;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
 }
-.row > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
+
+.row>[class*='col-'] {
+    display: flex;
+    flex-direction: column;
 }

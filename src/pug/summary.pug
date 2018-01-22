@@ -1,0 +1,12 @@
+- var summary = data.sections[0];
+h2.sectionTitle.clearfix(id=summary.title.shortName)
+  i.fa.pull-right(aria-hidden='true' class=summary.title.icon)
+  |  #{ summary.title.name }
+hr
+.jumbotron.vertical-center
+    .container
+        h1.sectionTitle.display-4.text-center
+            | #{ summary.job.title }
+        hr.my-4
+        p.text-justify
+            | #{ summary.job.desc }

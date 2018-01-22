@@ -13,25 +13,21 @@
 //-             each point in proj.points
 //-                 li #{ point }
 
-- var exper = data.sections[1];
+- var exper = data.sections[2];
 h2.sectionTitle.clearfix(id=exper.title.shortName)
-    i.fa(aria-hidden='true' class=exper.title.icon)
+    i.fa.pull-right(aria-hidden='true' class=exper.title.icon)
     |  #{ exper.title.name }
 hr
 
 .contaniner
     .row
         each exp in exper.exp
-            .col
+            .col-12
                 .card.border-dark
-                    .card-body.text-white.bg-dark
-                        h4.card-title #{ exp.company }/#{ exp.position }
+                    .card-header.text-white.bg-dark
+                        h4.card-title #{ exp.company } - #{ exp.position }
                         h6.card-title #{ exp.time } 
-                    ul.list-group.list-group-flush
-                        each proj in exp.projects
-                            li.list-group-item
-                                h5 #{ proj.name }
-                                p #{ proj.summary }
-                                    ul
-                                    each point in proj.points
-                                        | #{ point }
+                    .card-block
+                        ul
+                            each point in exp.points
+                                li #{ point }
