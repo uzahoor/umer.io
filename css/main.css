@@ -1,10 +1,20 @@
 html, body {
-  height: 100%;
+  height: calc(100% - 50px);
   background-color: #FEFDFA;
 }
 
+a.nostyle:link {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+a.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
+}
+
 .main {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Playfair Display', serif;
   color: #313639;
 
   height: 100%;
@@ -12,36 +22,103 @@ html, body {
   flex-direction: column;  /* make main axis vertical */
   justify-content: center; /* center items vertically, in this case */
   align-items: center;
+  text-align: center;
+
 }
 
 .main > .title {
   font-size: 48px;
-  font-weight: 500;
-
+  margin: 0px 50px 0px;
   opacity: 0;
   animation: fadeIn 3s forwards;
 }
 
-.main > .line {
+.line {
   display: block;
-  width: 50%;
+  width: 60%;
   border: 0;
-  border-top: 1px solid #313639;
+  border-top: 2px solid #313639;
   margin: 1em 0;
   padding: 0;
 
-  animation: fadeIn 1s forwards;
+  animation: fadeIn 2s forwards;
 }
 
-.main > .subtitle {
-  font-size: 36px;
+.subtitle {
+  margin: 10px;
+  font-size: 28px;
+}
 
+a > * {
+  padding: 15px;
   opacity: 0;
-  animation: fadeIn 3s forwards;
-  animation-delay: 3s;
+  animation: fadeIn 2s forwards;
+}
+
+.icon-linkedin {
+  animation-delay: 0.5s;
+}
+
+.icon-github {
+  animation-delay: 1s;
+}
+
+.icon-stackoverflow {
+  animation-delay: 1.5s;
 }
 
 @keyframes fadeIn {
   from {opacity: 0}
   to {opacity: 1}
+}
+
+/* ICONS */
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?jf8lx4');
+  src:  url('../fonts/icomoon.eot?jf8lx4#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?jf8lx4') format('truetype'),
+    url('../fonts/icomoon.woff?jf8lx4') format('woff'),
+    url('../fonts/icomoon.svg?jf8lx4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:hover {
+  content: "\eab0";
+  color: #5A5E61;
+}
+.icon-linkedin:hover {
+  content: "\eac9";
+  color: #0077b5;
+}
+.icon-stackoverflow:hover {
+  content: "\ead0";
+  color: #fe7a16;
+}
+
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-stackoverflow:before {
+  content: "\ead0";
 }
